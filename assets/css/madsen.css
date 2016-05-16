@@ -429,6 +429,7 @@ head.header-2 .top-cart.new-angle > a:before {
     margin-bottom: 15px;
     border-width: 1.3px !important;
     opacity: .99 !important;
+    margin-right: 15px !important;
     }
 
 	.modal-header {
