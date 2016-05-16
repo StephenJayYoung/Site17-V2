@@ -1,0 +1,513 @@
+/*General Overrides*/
+
+body {
+    color: #444;
+    font-family: 'Gentium Book Basic', serif !important;
+}
+
+p {
+     margin: 0 0 0px 0; 
+     color: #444;
+     font-size: 16px;
+     font-family: 'Gentium Book Basic', serif;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3, h4, h5, h6 {
+     margin: 0px;
+}
+
+h2{
+    margin: 20px;
+    color: #796d22;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.btn{
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #444;
+}
+
+.btn:hover{
+    background-color:  #b94b01 !important;
+}
+
+/*Nav Overrides*/
+.up-head {
+     padding: 0px 0 !important; 
+}
+
+.close-modal.main-color, .new-nav>ul>li.selected>a, .one-page .current a:hover{
+    color: #db5901 !important;
+}
+
+.close-modal.main-color, .new-nav>ul>li.selected>a, .one-page a:hover{
+    color: #db5901 !important;
+}
+
+.top-head.sticky-nav .top-nav > ul > li > a:hover{
+    color: #db5901 !important;
+}
+
+.top-head.header-4 .top-cart {
+    padding: 0px 0 0 0px !important;
+}
+
+.mobile-location-logo{
+    width: 25%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    .logo{
+        margin-left: 250px !important;
+    }
+}
+
+.section {
+    padding: 60px 0 !important;
+}
+
+/*.top-head.header-3, .top-head.header-4 {
+    padding: 40px 0 0;
+}*/
+
+fixed-head {
+    border: 1px rgba(255,255,255,0.4) solid;
+}
+
+/*Team Overrides*/
+
+#team{
+    background-color:#F3F2DB;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+
+#team li{
+    list-style: disc;
+}
+
+.doctor-info{
+border: 1px solid #000; padding-bottom: 35px; padding-right: -10px;
+}
+
+@media (max-width: 768px){
+    .doctor-info{
+        padding-top: 40px !important;
+        border: none !important;
+    }
+}
+
+/*Specials Overrides*/
+
+.pricing-tbl .price-lg {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+#specials{
+    background-color: #fff;
+}
+
+.specials-borders{
+    position: relative !important;
+    border: 1px solid #000 !important;
+}
+
+.pricing-tbl.style-3 .price_txt {
+    background-color: #db5901;
+    color: #fff;
+}
+
+.pricing-tbl.style-3 .price_txt span {
+    color: #fff;
+}
+
+
+
+.specials-borders:before {
+  content: " " !important;
+  position: absolute !important;
+  z-index: -1 !important;
+  top: 5px !important;
+  left: 5px !important;
+  right: 5px !important;
+  bottom: 5px !important;
+  border: 1px solid #000 !important;
+}
+
+.pricing-tbl:hover {
+    background-color: #fff !important;
+    border: 1px #000 solid !important;
+
+}
+
+.pricing-tbl {
+    border: 1px #000 solid;
+    padding-bottom: 15px !important;
+    border-right: 1px solid #000;
+}
+
+.pricing-tbl ul li:first-child {
+    color: #444 !important;
+    font-size: 17px;
+}
+
+.pricing-tbl ul li:first-child:hover {
+    color: #444 !important;
+}
+
+.pricing-box-responsive{
+    color: #444 !important;
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive:hover{
+    color: #444 !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive-one{
+    color: #444 !important;
+    margin-bottom: 70px !important;
+    margin-top: 20px !important
+}
+
+
+.pricing-box-responsive-two{
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive-three{
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+@media (min-width: 991px) and (max-width: 1200px){
+    .pricing-box-responsive-one{
+        margin-bottom: 95px !important;
+    }
+}
+
+
+
+.d-codes{
+    color: #444 !important;
+}
+
+/*.pricing-tbl:hover {
+border: 1px solid #ededed !important;
+}*/
+
+.pricing-tbl.style-3:hover h3, .pricing-tbl.style-3.selected h3 {
+     color: #000; 
+}
+
+.pricing-tbl.style-3 h3, .pricing-tbl.style-3.selected h3 {
+     color: #000; 
+     font-size: 25px;
+}
+
+/** ACTIONS OVERRIDES */
+
+#calls-to-action{padding:30px 0;border:0!important;background-color: #F24D24;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
+@media(max-width: 480px){ #calls-to-action{padding:10px 0;}}
+#calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0;}
+#calls-to-action h3 a{margin-top:-10px;display:block;color:#ffffff;font-size:3em;}
+@media (max-width: 762px){#calls-to-action h3 a{font-size:2em;}}
+
+#calls-to-action h3 a{font-size:2em;}
+#calls-to-action p, #calls-to-action span{color:#ffffff;margin-top:8px;}
+#calls-to-action span a{color:inherit;}
+#calls-to-action a.button{height:auto!important;padding:5px 20px!important;}
+#calls-to-action .phone-numbers{border-right:1px solid #fff;padding-right:20px;text-align:right;}
+#calls-to-action .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
+@media (max-width: 768px){
+    #calls-to-action{padding-top: 30px; padding-bottom: 30px;}
+    #calls-to-action .phone-numbers, #calls-to-action .schedule-online{
+    border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
+    #calls-to-action .existing-patients p{font-size:20px;}
+    #calls-to-action .existing-patients p a {margin-top: 5px;}
+    #calls-to-action h3 {font-size: 17px;}
+}
+
+.cta-doctor{ font-size: 25px !important;}
+
+.device-xs #calls-to-action .phone-numbers, .device-xs #calls-to-action .schedule-online,
+.device-xxs #calls-to-action .phone-numbers, .device-xxs #calls-to-action .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
+/*#calls-to-action .schedule-online a.button, #schedule-form button.btn-block, #services a.button{background-color:#fcb426;color:#1f4880;text-shadow:1px 1px 1px rgba(255,255,255,0.2);opacity:1;}
+*/.device-xs #calls-to-action .schedule-online a.button,
+.device-xxs #calls-to-action .schedule-online a.button{font-size:12px;padding:5px 10px !important;line-height:25px;}
+/*#calls-to-action .schedule-online a.button:hover, #schedule-form button.btn-block:hover, #services a.button:hover{background-color:#ffc451 !important;opacity:1;}
+*/#calls-to-action .existing-patients p{font-size:24px;margin:0;}
+.device-xs #calls-to-action .existing-patients p,
+.device-xxs #calls-to-action .existing-patients p{font-size:20px;}
+#calls-to-action .existing-patients p a{font-weight:bold;}
+@media(max-width: 762px){.existing-patients p a{margin-top:-10px;display:block;}}
+
+#calls-to-action .btn{
+    background-color: #fff !important;
+    color: #DB5A00;
+    font-weight:bold;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 3px #444;
+
+}
+
+#calls-to-action .btn:hover{
+    background-color: #f3f1dc !important;
+}
+
+/*Reviews Overrides*/
+
+
+/*Services Overrides*/
+.services-margin{margin-bottom: 0px !important; color: #DB5A00; font-size: 21px;}
+
+
+
+#services {
+    background-color: #F3F2DB;
+}
+
+.click-for-info{
+    font-size: 14px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px){
+    .services-margin{margin-bottom: 0px !important; color: #DB5A00; font-size:16px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    img {
+        padding: 5px !important;
+    }
+    .services-margin {
+    margin-bottom: 0px !important;
+    font-size: 17px;
+    }
+    .click-for-info{
+        font-size: 13px;
+        margin-bottom:15px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    img {
+        padding: 5px !important;
+    }
+    .services-margin {
+    margin-bottom: 0px !important;
+    font-size: 20px;
+    }
+    .click-for-info{
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+
+}
+
+@media (max-width: 480px){
+    .services-margin {
+    margin-bottom: 0px !important;
+    font-size: 25px;
+    }
+    .click-for-info{
+        font-size: 15px;
+        margin-bottom:26px;
+    }
+
+}
+
+/*Testimonials Overrides*/
+.testimonials-4 .testimonials-bg {
+     border: none !important; 
+}
+
+/*Location Overrides*/
+
+#location{
+    background-color: #fff;
+}
+
+@media(max-width: 480px){
+       #map_canvas{
+        height: 300px; width: 100%;
+    }
+}
+
+#map_canvas{
+    height: 450px; width: 100%;
+}
+
+head.header-2 .top-cart.new-angle > a:before {
+     border-top-right-radius: none !important; 
+     border-bottom-left-radius: none !important; 
+}
+
+.new-angle.lg, .contact-widget .details li i.new-angle.lg:before {
+    border-top-right-radius: none !important;
+    border-bottom-left-radius: none !important;
+}
+
+/*.lg-box:hover{
+    border: none !important;
+    border-color: #fff;
+}*/
+
+/*.new-angle, .panel.new-angle, .contact-widget .details li i.new-angle:before, .filter-by ul li.new-angle:after, .filter-by ul li.new-angle.active a, .top-head.header-2 .top-search.new-angle > a:before, .top-head.header-2 .top-cart.new-angle > a:before {
+    border: none !important;
+}*/
+
+
+/*Footer Overrides*/
+
+.footer-middle {
+    padding: 30px 0;
+    background-color: #403D35;
+
+}
+
+.fa-phone-square:before {
+    color: #DA7330;
+}
+
+.fa-map-marker:before {
+    color: #DA7330;
+}
+
+.fa-calendar:before {
+    color: #DA7330;
+}
+
+/*MODAL OVERRIDES*/
+.modal-body{
+	font-size: 15px;
+}
+
+@media (max-width: 480px) {
+
+.modal-title {
+    font-size: 22px !important;
+}
+
+.close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+	}
+}
+
+
+.modal-header .close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: -2px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+    }
+
+	.modal-header {
+  border-bottom: none !important; 
+}
+
+.modal-title {
+    font-size: 19px !important;
+	}
+}
+
+.modal-body a {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 50%;
+	max-width: 240px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: inherit;
+}
+
+.modal-body a img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.modal-body p a {
+	margin: 0;
+	text-align: inherit;
+	float: none;
+	width: auto;
+	display: inline;
+}
+
+.label{
+    font-size: 100% !important;
+}
+
+table {
+	width: 100%;
+}
+
+td, th {
+	padding: 5px;
+    color: #000 !important;
+    background-color: none !important;
+}
+
+th.label{
+         background-color: none !important; 
+}
+
+th {
+	width: 1px;
+	white-space: nowrap;
+	text-align: right;
+}
+
+td {
+	text-align: left;
+}
+
+input, select, textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 2px 0;
+}
+
+#email-field {
+	display: none;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    border-radius: 0px;
+}
+
+.modal .button:hover{
+    background-color: #b94b01 !important;
+}
